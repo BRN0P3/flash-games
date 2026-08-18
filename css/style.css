@@ -1,3 +1,24 @@
 .center{
     text-align: center;
 }
+
+.link{
+    text-decoration: none;
+    text-decoration: bold;
+    color: #000000;
+}
+
+.card{
+    display: flex;
+    border: 20px;
+    border-radius: 5%;
+}
+
+.card-content{
+    text-align: center;
+}
+.card-text{
+    color: #000000;
+    text-decoration: none;
+
+}
