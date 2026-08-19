@@ -4,21 +4,25 @@
 
 .link{
     text-decoration: none;
-    text-decoration: bold;
+    text-decoration:solid;
     color: #000000;
 }
 
 .card{
     display: flex;
-    border: 20px;
-    border-radius: 5%;
 }
 
 .card-content{
     text-align: center;
+    border: solid 2px black;
+    border-radius: 5%;
+    overflow: hidden;
 }
 .card-text{
     color: #000000;
     text-decoration: none;
+}
 
+.card-image{
+    border-bottom: solid 2px black;
 }
